@@ -82,10 +82,7 @@ randomArr.forEach((value, index) => {
 const card = document.createElement('div');
 card.className = 'card';
 card.style.backgroundColor = 'rgb(26 115 232 0.8)';
-card.style.width = '100px';
-card.style.height = '100px';
 card.style.color = 'white';
-card.style.fontSize = '69px';
 card.style.textAlign = 'center';
 card.dataset.index = index;
 card.addEventListener('click', handleCardClick);
